@@ -89,17 +89,17 @@
 
         layer_DVORAK {
             bindings = <
- &kp LS(BSLH)  &kp LS(EQUAL)   &kp LBKT  &kp LS(LBKT)  &kp LS(N9)  &kp LS(N7)            &trans                                                      &trans  &kp EQUAL  &kp LS(N0)  &kp LS(RBKT)  &kp RBKT  &kp LS(N8)  &kp LS(N1)
-      &kp TAB        &kp SQT  &kp COMMA       &kp DOT       &kp P       &kp Y            &trans                                                      &trans      &kp F       &kp G         &kp C     &kp R       &kp L    &kp BSLH
-    &kp LCTRL          &kp A      &kp O         &kp E       &kp U       &kp I            &trans  &kp LALT  &kp CAPS                  &trans  &trans  &trans      &kp D       &kp H         &kp T     &kp N       &kp S   &kp MINUS
-        &mo 6       &kp SEMI      &kp Q         &kp J       &kp K       &kp X            &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans      &kp B       &kp M         &kp W     &kp V       &kp Z       &mo 6
-       &trans     &kp LS(N4)    &kp ESC        &trans      &trans                        &trans    &trans    &trans                  &trans  &trans  &trans                 &trans        &trans  &kp FSLH  &kp LS(N2)      &trans
+ &kp LS(BSLH)    &kp PLUS   &kp LBKT  &kp LS(LBKT)  &kp LS(N9)  &kp LS(N7)            &trans                                                      &trans  &kp EQUAL  &kp LS(N0)  &kp LS(RBKT)  &kp RBKT  &kp LS(N8)  &kp LS(N1)
+      &kp TAB     &kp SQT  &kp COMMA       &kp DOT       &kp P       &kp Y            &trans                                                      &trans      &kp F       &kp G         &kp C     &kp R       &kp L    &kp BSLH
+    &kp LCTRL       &kp A      &kp O         &kp E       &kp U       &kp I            &trans  &kp LALT  &kp CAPS                  &trans  &trans  &trans      &kp D       &kp H         &kp T     &kp N       &kp S   &kp MINUS
+        &mo 6    &kp SEMI      &kp Q         &kp J       &kp K       &kp X            &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans      &kp B       &kp M         &kp W     &kp V       &kp Z       &mo 6
+       &trans  &kp LS(N4)    &kp ESC        &trans      &trans                        &trans    &trans    &trans                  &trans  &trans  &trans                 &trans        &trans  &kp FSLH  &kp LS(N2)      &trans
             >;
         };
 
         layer_SHIFTD {
             bindings = <
- &kp GRAVE         &kp N1         &kp N2       &kp N3     &kp N4     &kp N5            &trans                                                  &trans     &kp N6     &kp N7     &kp N8        &kp N9      &kp N0     &kp LS(N5)
+ &kp GRAVE      &kp KP_N1      &kp KP_N2    &kp KP_N3  &kp KP_N4  &kp KP_N5            &trans                                                  &trans  &kp KP_N6  &kp KP_N7  &kp KP_N8     &kp KP_N9   &kp KP_N0     &kp LS(N5)
     &trans    &kp LS(SQT)  &kp LS(COMMA)  &kp LS(DOT)  &kp LS(P)  &kp LS(Y)            &trans                                                  &trans  &kp LS(F)  &kp LS(G)  &kp LS(C)     &kp LS(R)   &kp LS(L)     &kp LS(N3)
     &trans      &kp LS(A)      &kp LS(O)    &kp LS(E)  &kp LS(U)  &kp LS(I)            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LS(D)  &kp LS(H)  &kp LS(T)     &kp LS(N)   &kp LS(S)  &kp LS(MINUS)
     &trans   &kp LS(SEMI)      &kp LS(Q)    &kp LS(J)  &kp LS(K)  &kp LS(X)            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(B)  &kp LS(M)  &kp LS(W)     &kp LS(V)   &kp LS(Z)         &trans
